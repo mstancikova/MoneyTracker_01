@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="MoneyTracker_01.MoneyTracker_01" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="21" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <application android:allowBackup="true" android:label="Money Tracker 01" android:name="android.app.Application">
+    <activity android:label="Groups" android:name="md592656637f0e687d601fd5572fd92660f.GroupActivity" />
+    <activity android:label="MoneyTracker 01" android:name="md592656637f0e687d601fd5572fd92660f.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="MoneyTracker_01.MoneyTracker_01.mono.MonoRuntimeProvider.__mono_init__" />
+  </application>
+</manifest>

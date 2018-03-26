@@ -1,0 +1,8 @@
+MoneyTracker_01.GroupActivity, MoneyTracker-01;md592656637f0e687d601fd5572fd92660f.GroupActivity
+MoneyTracker_01.GroupActivity, MoneyTracker-01, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md592656637f0e687d601fd5572fd92660f.GroupActivity
+MoneyTracker_01.GroupActivity;md592656637f0e687d601fd5572fd92660f.GroupActivity
+moneytracker_01.GroupActivity;md592656637f0e687d601fd5572fd92660f.GroupActivity
+MoneyTracker_01.MainActivity, MoneyTracker-01;md592656637f0e687d601fd5572fd92660f.MainActivity
+MoneyTracker_01.MainActivity, MoneyTracker-01, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md592656637f0e687d601fd5572fd92660f.MainActivity
+MoneyTracker_01.MainActivity;md592656637f0e687d601fd5572fd92660f.MainActivity
+moneytracker_01.MainActivity;md592656637f0e687d601fd5572fd92660f.MainActivity
