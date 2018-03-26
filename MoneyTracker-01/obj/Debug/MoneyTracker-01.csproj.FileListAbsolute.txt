@@ -24,3 +24,4 @@ D:\Projekty\VC2017\MoneyTracker-01\MoneyTracker-01\obj\Debug\MoneyTracker-01.csp
 D:\Projekty\VC2017\MoneyTracker-01\MoneyTracker-01\bin\Debug\MoneyTracker-01.dll.mdb
 D:\Projekty\VC2017\MoneyTracker-01\MoneyTracker-01\obj\Debug\android\assets\MoneyTracker-01.dll.mdb
 D:\Projekty\VC2017\MoneyTracker-01\MoneyTracker-01\obj\Debug\res\layout\grouplist.xml
+D:\Projekty\VC2017\MoneyTracker-01\MoneyTracker-01\obj\Debug\res\layout\bankslist.xml

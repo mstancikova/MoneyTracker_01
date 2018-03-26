@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v21</xs:documentation>
-    <xs:documentation>26/03/2018 12:58:55</xs:documentation>
+    <xs:documentation>26/03/2018 14:02:31</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -16131,6 +16131,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@+id/" />
             <xs:enumeration value="@+id/timePicker1" />
+            <xs:enumeration value="@id/bankList" />
             <xs:enumeration value="@id/btnBanks" />
             <xs:enumeration value="@id/btnExpencies" />
             <xs:enumeration value="@id/btnGroups" />

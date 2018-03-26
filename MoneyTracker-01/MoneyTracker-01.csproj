@@ -75,6 +75,7 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BankActivity.cs" />
     <Compile Include="GroupActivity.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\DataHelper\Banks.cs" />
@@ -96,6 +97,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\GroupList.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\BanksList.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

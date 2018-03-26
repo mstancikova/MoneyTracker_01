@@ -44,20 +44,23 @@ namespace MoneyTracker_01
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f04000b
-			public const int btnBanks = 2130968587;
+			// aapt resource value: 0x7f040005
+			public const int bankList = 2130968581;
 			
-			// aapt resource value: 0x7f040009
-			public const int btnExpencies = 2130968585;
+			// aapt resource value: 0x7f04000c
+			public const int btnBanks = 2130968588;
 			
 			// aapt resource value: 0x7f04000a
-			public const int btnGroups = 2130968586;
+			public const int btnExpencies = 2130968586;
+			
+			// aapt resource value: 0x7f04000b
+			public const int btnGroups = 2130968587;
 			
 			// aapt resource value: 0x7f040003
 			public const int btnSavebank = 2130968579;
 			
-			// aapt resource value: 0x7f040007
-			public const int btnSavegroup = 2130968583;
+			// aapt resource value: 0x7f040008
+			public const int btnSavegroup = 2130968584;
 			
 			// aapt resource value: 0x7f040001
 			public const int edtBankname = 2130968577;
@@ -65,20 +68,20 @@ namespace MoneyTracker_01
 			// aapt resource value: 0x7f040000
 			public const int edtDate = 2130968576;
 			
-			// aapt resource value: 0x7f040006
-			public const int edtGroupname = 2130968582;
+			// aapt resource value: 0x7f040007
+			public const int edtGroupname = 2130968583;
 			
 			// aapt resource value: 0x7f040002
 			public const int edtMoney = 2130968578;
 			
-			// aapt resource value: 0x7f040005
-			public const int groupList = 2130968581;
+			// aapt resource value: 0x7f040006
+			public const int groupList = 2130968582;
 			
 			// aapt resource value: 0x7f040004
 			public const int listViewBanks = 2130968580;
 			
-			// aapt resource value: 0x7f040008
-			public const int listViewGroups = 2130968584;
+			// aapt resource value: 0x7f040009
+			public const int listViewGroups = 2130968585;
 			
 			static Id()
 			{
@@ -97,13 +100,16 @@ namespace MoneyTracker_01
 			public const int Banks = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int GroupList = 2130837505;
+			public const int BanksList = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int Groups = 2130837506;
+			public const int GroupList = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int Main = 2130837507;
+			public const int Groups = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int Main = 2130837508;
 			
 			static Layout()
 			{

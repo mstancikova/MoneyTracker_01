@@ -42,7 +42,7 @@ namespace MoneyTracker_01
 
         private void Btnbanks_Click(object sender, System.EventArgs e)
         {
-            throw new System.NotImplementedException();
+            StartActivity(typeof(BankActivity));
         }
 
         private void Btngroups_Click(object sender, System.EventArgs e)

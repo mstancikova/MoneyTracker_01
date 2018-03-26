@@ -14,27 +14,28 @@ using SQLite;
 using System.IO;
 using Android.Util;
 
+
 namespace MoneyTracker_01.Resources.DataHelper
 {
     public class DataBase
     {
+        public string dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "moneytracker01.db3");
+        
         //code to create the database
         public string CreateDB()
         {
             var output = "";
             output += "Create Database if it doesnt exist.";
-            string dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "moneytracker01.db3");
             var db = new SQLiteConnection(dbPath);
             output = "\n Database created ...";
             return output;
         }
 
-        // -------------------------------- code to create Group table
+        // -------------------------------- code to create GROUP TABLE
         public string CreateGroupsTable()
         {
             try
             {
-                string dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "moneytracker01.db3");
                 var db = new SQLiteConnection(dbPath);
                 db.CreateTable<Groups>();
                 string result = "Table Groups Created succesfully...";
@@ -51,12 +52,10 @@ namespace MoneyTracker_01.Resources.DataHelper
         {
             try
             {
-                string dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "moneytracker01.db3");
                 var db = new SQLiteConnection(dbPath);
-
-                Groups groupname = new Groups();
-                groupname.Groupname = group;
-                db.Insert(groupname);
+                Groups groups = new Groups();
+                groups.Groupname = group;
+                db.Insert(groups);
                 return "Group added...";
             }
             catch (Exception ex)
@@ -68,25 +67,21 @@ namespace MoneyTracker_01.Resources.DataHelper
         // Create list of Groups
         public List<string> GetGroups()
         {
-            List<string> motti = new List<string>();
-            string dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "moneytracker01.db3");
-
+            List<string> groups = new List<string>();
             using (var db = new SQLiteConnection(dbPath))
             {
                 foreach (var s in db.Table<Groups>())
-                    motti.Add(s.Groupname);
+                    groups.Add(s.Groupname);
             }
-
-            return motti;
+            return groups;
         }
 
 
-        // ------------------------------ code to create Banks table
+        // ------------------------------ code to create BANKS TABLE
         public string CreateBanksTable()
         {
             try
             {
-                string dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "moneytracker01.db3");
                 var db = new SQLiteConnection(dbPath);
                 db.CreateTable<Banks>();
                 string result = "Table Banks Created succesfully...";
@@ -99,22 +94,39 @@ namespace MoneyTracker_01.Resources.DataHelper
         }
 
         //code to insert Bank
-        public string InsertBank(string bank)
+        public string InsertBank(string date, string bank, double money)
         {
             try
             {
                 string dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "moneytracker01.db3");
                 var db = new SQLiteConnection(dbPath);
 
-                Banks bankname = new Banks();
-                bankname.Bankname = bank;
-                db.Insert(bankname);
+                Banks banks = new Banks();
+                banks.Date = date;
+                banks.Bankname = bank;
+                banks.Money = money;
+                db.Insert(banks);
                 return "Bank added...";
             }
             catch (Exception ex)
             {
                 return "Error : " + ex.Message;
             }
+        }
+
+        // Create list of Groups
+        public List<string> GetBanks()
+        {
+            List<string> banks = new List<string>();
+            string dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "moneytracker01.db3");
+
+            using (var db = new SQLiteConnection(dbPath))
+            {
+                foreach (var s in db.Table<Banks>())
+                    banks.Add(s.Bankname + " - " + s.Money);
+            }
+
+            return banks;
         }
 
     }
