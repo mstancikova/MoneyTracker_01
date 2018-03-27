@@ -31,8 +31,13 @@ namespace MoneyTracker_01
             btnbanks = FindViewById<Button>(Resource.Id.btnBanks);
 
             btnexpencies.Click += Btnexpencies_Click;
-            btngroups.Click += Btngroups_Click;
-            btnbanks.Click += Btnbanks_Click;
+            btngroups.Click += delegate{
+                StartActivity(typeof(GroupActivity));
+            };
+      
+            btnbanks.Click += delegate {
+                StartActivity(typeof(BankActivity));
+            };
         }
 
         private void Btnexpencies_Click(object sender, System.EventArgs e)
@@ -40,15 +45,6 @@ namespace MoneyTracker_01
             throw new System.NotImplementedException();
         }
 
-        private void Btnbanks_Click(object sender, System.EventArgs e)
-        {
-            StartActivity(typeof(BankActivity));
-        }
-
-        private void Btngroups_Click(object sender, System.EventArgs e)
-        {
-            StartActivity(typeof(GroupActivity));
-        }
     }
 }
 

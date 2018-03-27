@@ -94,7 +94,7 @@ namespace MoneyTracker_01.Resources.DataHelper
         }
 
         //code to insert Bank
-        public string InsertBank(string date, string bank, double money)
+        public string InsertBank(string date, string bank, string money)
         {
             try
             {
@@ -114,7 +114,7 @@ namespace MoneyTracker_01.Resources.DataHelper
             }
         }
 
-        // Create list of Groups
+        // Create list of Banks
         public List<string> GetBanks()
         {
             List<string> banks = new List<string>();
@@ -123,7 +123,7 @@ namespace MoneyTracker_01.Resources.DataHelper
             using (var db = new SQLiteConnection(dbPath))
             {
                 foreach (var s in db.Table<Banks>())
-                    banks.Add(s.Bankname + " - " + s.Money);
+                    banks.Add(s.Bankname + " ( " + s.Money + " ) ");
             }
 
             return banks;

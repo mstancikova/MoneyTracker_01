@@ -45,7 +45,7 @@ namespace MoneyTracker_01
 
         private void RefreshAdapter()
         {
-            listviewgroups.Adapter = new ArrayAdapter<string>(listviewgroups.Context, Resource.Layout.GroupList, db.GetGroups().ToArray());
+            listviewgroups.Adapter = new ArrayAdapter<string>(listviewgroups.Context, Resource.Layout.GList, db.GetGroups().ToArray());
         }
 
         private void Btnsavegroup_Click(object sender, EventArgs e)

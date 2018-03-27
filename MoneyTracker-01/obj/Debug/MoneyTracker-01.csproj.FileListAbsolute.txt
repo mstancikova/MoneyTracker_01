@@ -14,14 +14,13 @@ D:\Projekty\VC2017\MoneyTracker-01\MoneyTracker-01\obj\Debug\MoneyTracker-01.csp
 D:\Projekty\VC2017\MoneyTracker-01\MoneyTracker-01\obj\Debug\MoneyTracker-01.dll
 D:\Projekty\VC2017\MoneyTracker-01\MoneyTracker-01\obj\Debug\MoneyTracker-01.pdb
 D:\Projekty\VC2017\MoneyTracker-01\MoneyTracker-01\obj\Debug\android\bin\MoneyTracker_01.MoneyTracker_01.apk
+D:\Projekty\VC2017\MoneyTracker-01\MoneyTracker-01\obj\Debug\res\layout\banks.xml
 D:\Projekty\VC2017\MoneyTracker-01\MoneyTracker-01\obj\Debug\res\layout\groups.xml
+D:\Projekty\VC2017\MoneyTracker-01\MoneyTracker-01\obj\Debug\res\layout\grouplist.xml
+D:\Projekty\VC2017\MoneyTracker-01\MoneyTracker-01\obj\Debug\res\layout\bankslist.xml
 D:\Projekty\VC2017\MoneyTracker-01\MoneyTracker-01\obj\Debug\res\layout\main.xml
 D:\Projekty\VC2017\MoneyTracker-01\MoneyTracker-01\obj\Debug\res\values\strings.xml
 D:\Projekty\VC2017\MoneyTracker-01\MoneyTracker-01\obj\Debug\R.cs.flag
 D:\Projekty\VC2017\MoneyTracker-01\MoneyTracker-01\obj\Debug\uploadflags.txt
-D:\Projekty\VC2017\MoneyTracker-01\MoneyTracker-01\obj\Debug\res\layout\banks.xml
-D:\Projekty\VC2017\MoneyTracker-01\MoneyTracker-01\obj\Debug\MoneyTracker-01.csprojResolveAssemblyReference.cache
 D:\Projekty\VC2017\MoneyTracker-01\MoneyTracker-01\bin\Debug\MoneyTracker-01.dll.mdb
 D:\Projekty\VC2017\MoneyTracker-01\MoneyTracker-01\obj\Debug\android\assets\MoneyTracker-01.dll.mdb
-D:\Projekty\VC2017\MoneyTracker-01\MoneyTracker-01\obj\Debug\res\layout\grouplist.xml
-D:\Projekty\VC2017\MoneyTracker-01\MoneyTracker-01\obj\Debug\res\layout\bankslist.xml

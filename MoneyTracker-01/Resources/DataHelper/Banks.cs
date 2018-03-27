@@ -20,6 +20,6 @@ namespace MoneyTracker_01.Resources.DataHelper
         public int Id { get; set; }
         public string Date { get; set; }
         public string Bankname { get; set; }
-        public double Money { get; set; }
+        public string Money { get; set; }
     }
 }

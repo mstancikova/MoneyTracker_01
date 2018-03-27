@@ -76,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BankActivity.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="GroupActivity.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\DataHelper\Banks.cs" />
@@ -96,10 +97,10 @@
     <AndroidResource Include="Resources\layout\Groups.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\GroupList.axml">
+    <AndroidResource Include="Resources\layout\GList.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\BanksList.axml">
+    <AndroidResource Include="Resources\layout\BList.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
